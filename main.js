@@ -1,5 +1,26 @@
 // Project data
 const projects = [
+     {
+        title: "🥩 Le Grill Royal",
+        description: "Bienvenue sur le site officiel du Grill Royal !",
+        tags: ["Node.js", "Vanilla", "Tailwind"],
+        image: "assets/legrill.png",
+        link: "https://le-grill-royal.vercel.app/"
+    },
+      {
+        title: "Artisanat Sucré",
+        description: "Le site vitrine d’une boulangerie-pâtisserie française spécialisée dans le trompe-l’œil pâtissier",
+        tags: ["Vanilla", "Three.js", "CSS"],
+        image: "assets/Artisanat.png",
+        link: "https://artisanat-sucre.vercel.app/"
+    },
+        {
+        title: "LA BANLIEUE PVRIS — Site Officiel",
+        description: "Plateforme de vente de vetements",
+        tags: ["Angular", "TypeScript", "Tailwind CSS", "GSAP"],
+        image: "assets/LBPARIS.png",
+        link: "https://lbparis.vercel.app/"
+    },
     {
         title: "Portfolio",
         description: "Mon portfolio personnel, qui met en avant mon CV et mes compétences techniques.",
@@ -8,28 +29,14 @@ const projects = [
         link: "https://cvkevin.vercel.app/"
     },
     {
-        title: "LA BANLIEUE PVRIS — Site Officiel",
-        description: "Plateforme de vente de vetements",
-        tags: ["Angular", "TypeScript", "Tailwind CSS", "GSAP"],
-        image: "assets/LBPARIS.png",
-        link: "https://lbparis.vercel.app/"
-    },
-    {
-        title: "Artisanat Sucré",
-        description: "Le site vitrine d’une boulangerie-pâtisserie française spécialisée dans le trompe-l’œil pâtissier",
-        tags: ["Vanilla", "Three.js", "CSS"],
-        image: "assets/Artisanat.png",
-        link: "https://artisanat-sucre.vercel.app/"
-    },
-    {
-        title: "Elite Drive",
+        title: "🚗 Elite Drive",
         description: "Bienvenue sur le site d’Elite Drive, l’auto/moto-école nouvelle génération.",
         tags: ["Vanilla", "Three.js", "CSS"],
         image: "assets/eliteDrive.png",
         link: "https://elite-drive-ecru.vercel.app/"
     },
     {
-        title: "ToDo List",
+        title: "📝 ToDo List",
         description: "To do list, gestion de plusieurs tâches et plusieurs projets.",
         tags: ["Node.js", "Anuglar", "PWA (application mobile)"],
         image: "assets/todolist.png",
